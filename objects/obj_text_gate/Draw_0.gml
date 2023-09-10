@@ -1,6 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+/*
 if obj_gate.sprite_index==spr_cerca_ligada{
 	if room ==  3 || room ==  4 || room ==  5{
 	draw_text(obj_gate.x-250,obj_gate.y+110, "PERIGO, NAO SE APROXIME");

@@ -29,7 +29,7 @@
   "origin": 4,
   "parent": {
     "name": "green",
-    "path": "folders/_Sprites/mummy/green.yy",
+    "path": "folders/_Sprites/mommy/green.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -13,33 +13,33 @@ if playable==0||playable==2{
 	
 	// setting walkin sprite right or left
 	
-	if room == 3 || room == 9{
-	if sign(obj_mummy.hsp)== 1 || obj_mummy.vsp <>0{
+	if (room == 3 || room == 9) {
+		if (sign(hsp) == 1 || vsp <> 0){
 		
-		sprite_index=spr_mummy_andando1
-	}
-	else {
-		if obj_mummy.hsp==0 {
-		sprite_index=spr_mummy_parada1
-	} else {
-		sprite_index=spr_mummy_andando2
-	}
-	}
+			sprite_index = spr_mummy_andando1
+		}
+		else {
+			if (hsp == 0) {
+				sprite_index=spr_mummy_parada1
+			} else {
+				sprite_index=spr_mummy_andando2
+			}
+		}
 	
 	}
 	
-	if  room == 4 || room == 10{
-	if sign(obj_mummy.hsp)== 1 || obj_mummy.vsp <>0{
-		
-		sprite_index=spr_mummy2_andando1
-	}
-	else {
-		if obj_mummy.hsp==0 {
-		sprite_index=spr_mummy2_parada1
-	} else {
+	if  (room == 4 || room == 10) {
+		if sign(obj_mummy.hsp)== 1 || obj_mummy.vsp <>0{
+			sprite_index=spr_mummy2_andando1
+		}
+		else {
+			if obj_mummy.hsp==0 {
+				sprite_index=spr_mummy2_parada1
+			} 
+			else {
 		sprite_index=spr_mummy2_andando2
-	}
-	}
+			}
+		}
 	
 	}
 	

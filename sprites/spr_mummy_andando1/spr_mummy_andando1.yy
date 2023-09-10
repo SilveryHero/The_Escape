@@ -52,7 +52,7 @@
   "origin": 4,
   "parent": {
     "name": "blue",
-    "path": "folders/_Sprites/mummy/blue.yy",
+    "path": "folders/_Sprites/mommy/blue.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

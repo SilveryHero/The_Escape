@@ -15,14 +15,14 @@ if (room == 4 || room == 10) {
 
 if room == 5 || room == 11 {
 	if !obj_car.move{
-		text1=true
-		spd=0
+		text1 = true
+		spd = 0
 	}
 }
 
-if text1 == false && text2==false{
+if (text1 == false && text2==false){
 if keyboard_check_released(vk_control){
-	choice +=1
+	choice += 1
 	
 }
 }
@@ -81,11 +81,11 @@ else{
  
  //get back from eletric gate
  
- if room == 3 || room == 9 {
+ if (room == 3 || room == 9) {
  if(place_meeting(x+18,y+18, obj_gate))&& text1=false{
 	
-	spd=0;
-	text1=true;
+	spd = 0;
+	text1 = true;
 	instance_create_depth(x, y, -1000, obj_text_gate);
 		audio_play_sound(snd_latido1,0,false)
 	
