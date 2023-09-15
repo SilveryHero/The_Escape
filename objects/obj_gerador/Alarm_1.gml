@@ -4,7 +4,7 @@
 
 
 	texto=!texto;
-	instance_create_depth(x, y+100, -1000, obj_text_gerador);
+	instance_create_depth(x, y+100, -1000, obj_textbox);
 	
 
 

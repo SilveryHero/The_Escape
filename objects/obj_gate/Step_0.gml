@@ -16,8 +16,7 @@ if obj_gerador.luz == false && luz==0{
 			pular = false;
 
 		}
-		show_debug_message(pulo)
-		
+				
 		if obj_puppy.y>520 && pulo >0 {
 		
 		luz=1
@@ -35,7 +34,7 @@ if(place_meeting(x+64,y, obj_puppy)) {
 	}
 }
 
-if(place_meeting(x+64,y, obj_mummy)) {
+if(place_meeting(x+64,y, obj_mom)) {
 	
 	if (keyboard_check_released(vk_space)){
 		

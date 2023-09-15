@@ -119,7 +119,7 @@ else {
 if playable==2{
 	
 
-		if obj_mummy.spd==0{
+		if obj_mom.spd==0{
 			speed=0
 			
 			if room == 3|| room == 9{
@@ -146,12 +146,12 @@ if playable==2{
 			move_towards_point(_follow1.x,_follow1.y,_max_step);
 		}
 		if room == 3|| room == 9{
-		if sign(obj_mummy.hsp)== 1 || obj_mummy.vsp <>0{
+		if sign(obj_mom.hsp)== 1 || obj_mom.vsp <>0{
 		
 		sprite_index=spr_puppy_andando
 	}
 	else {
-		if obj_mummy.hsp==0 {
+		if obj_mom.hsp==0 {
 		sprite_index=spr_puppy_parado
 	} else {
 		sprite_index=spr_puppy_andando2
@@ -160,12 +160,12 @@ if playable==2{
 	
 		}
 		if room == 4|| room == 10{
-		if sign(obj_mummy.hsp)== 1 || obj_mummy.vsp <>0{
+		if sign(obj_mom.hsp)== 1 || obj_mom.vsp <>0{
 		
 		sprite_index=spr_puppy2_andando
 	}
 	else {
-		if obj_mummy.hsp==0 {
+		if obj_mom.hsp==0 {
 		sprite_index=spr_puppy2_parado
 	} else {
 		sprite_index=spr_puppy2_andando2
@@ -174,12 +174,12 @@ if playable==2{
 	
 		}
 		if room == 5|| room == 11{
-		if sign(obj_mummy.hsp)== 1 || obj_mummy.vsp <>0{
+		if sign(obj_mom.hsp)== 1 || obj_mom.vsp <>0{
 		
 		sprite_index=spr_puppy3_andando
 	}
 	else {
-		if obj_mummy.hsp==0 {
+		if obj_mom.hsp==0 {
 		sprite_index=spr_puppy3_parado
 	} else {
 		sprite_index=spr_puppy3_andando2

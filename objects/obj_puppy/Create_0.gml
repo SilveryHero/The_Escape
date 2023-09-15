@@ -3,7 +3,7 @@
 
 playable = 0
 follow = true
-_follow1 = obj_mummy;
+_follow1 = obj_mom;
 
 
 // Inherit the parent event

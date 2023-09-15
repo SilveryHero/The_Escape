@@ -11,7 +11,7 @@ if page ==21{
 	page+=1
 }
 }
-if page == 20{
+if page == 19{
 	alarm[0]=1
 }
 

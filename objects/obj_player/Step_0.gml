@@ -81,23 +81,23 @@ else{
  
  //get back from eletric gate
  
- if (room == 3 || room == 9) {
- if(place_meeting(x+18,y+18, obj_gate))&& text1=false{
+ if (room == rm_fase_1_pt || room == rm_fase_1_en) {
+ if(place_meeting(x+18,y+18, obj_gate))&& text2=false{
 	
 	spd = 0;
-	text1 = true;
-	instance_create_depth(x, y, -1000, obj_text_gate);
+	text2 = true;
+	instance_create_depth(x, y, -1000, obj_textbox);
 		audio_play_sound(snd_latido1,0,false)
 	
 	}
 	
-	if text1==true{
+	if text2==true{
 		
 		if keyboard_check(vk_space){
 			spd = 3
 			x-=20
-			instance_destroy(obj_text_gate)
-			text1=false
+			instance_destroy(obj_textbox)
+			text2=false
 		}
 	}
  }
@@ -107,7 +107,7 @@ if room== 4 || room == 10{
 	
 	with(obj_player){
 	if(place_meeting(x,y, obj_flashlight)){
-	instance_create_depth(x, y, -1000, obj_text_flashlight);
+	instance_create_depth(x, y, -1000, obj_textbox);
 	if text1==false {
 		audio_play_sound(snd_latido1,0,false)
 	}
@@ -125,7 +125,7 @@ if room== 5 || room == 11{
 	
 	with(obj_player){
 	if(place_meeting(x,y, obj_car)){
-	instance_create_depth(x, y, -1000, obj_text_car);
+	instance_create_depth(x, y, -1000, obj_textbox);
 	if text1==false {
 		audio_play_sound(snd_latido1,0,false)
 	}
@@ -144,7 +144,7 @@ if room== 5 || room == 11{
 	
 	spd=0;
 	text1=true;
-	instance_create_depth(x, y, -1000, obj_text_car);
+	instance_create_depth(x, y, -1000, obj_textbox);
 	
 	}
 	
