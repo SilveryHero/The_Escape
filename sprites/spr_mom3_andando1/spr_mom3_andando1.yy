@@ -4,10 +4,10 @@
   "name": "spr_mom3_andando1",
   "bbox_bottom": 166,
   "bbox_left": 9,
-  "bbox_right": 157,
-  "bbox_top": 54,
-  "bboxMode": 2,
-  "collisionKind": 2,
+  "bbox_right": 173,
+  "bbox_top": 25,
+  "bboxMode": 0,
+  "collisionKind": 4,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
@@ -29,7 +29,7 @@
   "origin": 4,
   "parent": {
     "name": "brown",
-    "path": "folders/_Sprites/mommy/brown.yy",
+    "path": "folders/_Sprites/mom/brown.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

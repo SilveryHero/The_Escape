@@ -3,7 +3,7 @@
 trigger = false
 texto = ""
 
-
+if (instance_exists(obj_gate)) {
 	if (obj_gate.sprite_index  == spr_cerca_ligada) {
 		if (room ==  rm_fase_1_pt ) {
 			texto = "PERIGO, NAO SE APROXIME\nDesligue a energia primeiro.";
@@ -15,10 +15,20 @@ texto = ""
 	
 	if (obj_gate.sprite_index == spr_cerca_desligada) {
 		if (room == rm_fase_1_pt) {
-			texto = "Nao abre deste lado!\nAlguém precisa passar para o outro lado"
+			if (obj_player.choice == 1) {
+				texto = "Nao abre deste lado!\nPosso atravessar por aquele buraco na grade"
+			}
+			else {
+				texto = "Nao abre deste lado!\nAlguem precisa passar para o outro lado"
+			}
 		}
 		if (room == rm_fase_1_en) {
-			texto = "It does not open from this side\nSomeone needs to go to the other side"
+			if (obj_player.choice == 1) {
+				texto = "It does not open from this side\n I can pass through that hole on the grid"
+			}
+			else {
+				texto = "It does not open from this side\nSomeone needs to go to the other side"
+			}
 		}
 	}
 
@@ -31,6 +41,7 @@ texto = ""
 		}
 	}
 
+}
 
 if (obj_player.text1){
 	if (room == rm_fase_2_pt) {

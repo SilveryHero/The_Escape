@@ -6,10 +6,10 @@ follow = true
 _follow1 = obj_mom;
 
 
+
 // Inherit the parent event
 event_inherited();
 spd=0
 distance=200
 text=false
 
-show_debug_message("Foi criado")

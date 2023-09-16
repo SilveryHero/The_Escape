@@ -63,7 +63,7 @@ if playable==0||playable==2{
 
 if room == 3 || room == 9 {
 x=clamp(x, 36, room_width-86);
-y=clamp(y, 295, room_height-70);
+y=clamp(y, 310, room_height-70);
 }
 if room == 4 || room == 10{
 	

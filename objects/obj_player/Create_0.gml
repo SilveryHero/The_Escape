@@ -9,6 +9,6 @@ window_set_fullscreen(true);
 text1=false;
 text2=false
 
-mask_index = spr_mom_collision
+
 
 

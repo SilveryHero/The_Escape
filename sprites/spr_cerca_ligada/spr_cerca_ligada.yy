@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_cerca_ligada",
   "bbox_bottom": 716,
-  "bbox_left": 899,
+  "bbox_left": 893,
   "bbox_right": 977,
   "bbox_top": 122,
   "bboxMode": 2,

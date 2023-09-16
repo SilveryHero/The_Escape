@@ -3,7 +3,7 @@
 
 obstaculo = noone
 
-
+texto = "" 
 
 
 

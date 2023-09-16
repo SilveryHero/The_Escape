@@ -82,7 +82,7 @@ else{
  //get back from eletric gate
  
  if (room == rm_fase_1_pt || room == rm_fase_1_en) {
- if(place_meeting(x+18,y+18, obj_gate))&& text2=false{
+ if(place_meeting(x+18,y, obj_gate))&& text2=false{
 	
 	spd = 0;
 	text2 = true;
