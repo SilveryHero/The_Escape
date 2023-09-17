@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 
-room_goto(rm_fase_1_pt);
+transition(rm_fase_1_pt);
 
 
 

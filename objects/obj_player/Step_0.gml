@@ -42,11 +42,11 @@ if keyboard_check(vk_escape){
 	game_end();
 }
 
-if room == 1 || room == 7{
+if (room == rm_Menu_inicial_pt || room == rm_menu_inicial_en) {
 	
-	if keyboard_check_released(vk_enter){
+	if (keyboard_check_released(vk_enter)) {
 		
-		room_goto_next()
+		transition(room_next(room));
 	}
 
 }

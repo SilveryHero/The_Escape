@@ -8,7 +8,7 @@ x+=0.4
 
 
 if y >= room_height-16{
-	instance_create_depth(730, 180, -100, obj_carro2)
+	instance_create_depth(730, 160, -100, obj_carro2)
 	instance_destroy();
 	car=0
 }

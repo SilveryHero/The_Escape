@@ -4,7 +4,7 @@
 if ((place_meeting(x-20, y, obj_mom) && obj_puppy.distance <130 ) && obj_player.choice == 2){
 	
 	
-	room_goto_next()
+	transition(room_next(room));
 }
 
 if (place_meeting(x-30,y,obj_player) && obj_player.choice!=2) {

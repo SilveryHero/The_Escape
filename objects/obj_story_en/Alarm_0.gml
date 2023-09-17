@@ -1,8 +1,6 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
 
 
-room_goto_next();
+transition(room_next(room));
 
 
 

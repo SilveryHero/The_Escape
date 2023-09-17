@@ -48,7 +48,7 @@ if (obj_player.text1){
 		texto = "Te encontraram!\nDesvie das luzes para chegar ao outro lado\nAperte backspace para voltar ao inicio da fase "
 	}
 	if (room == rm_fase_2_en) {
-		texto = "They found you!/n Dodge the lights to get to the other side/Press Backspace to restart the level";
+		texto = "They found you!\n Dodge the lights to get to the other side\nPress Backspace to restart the level";
 	}
 	if (room == rm_fase_3_pt) {
 		texto = "Cuidado!\nVoce esta quase la!\nAperte backspace para voltar ao inicio da fase"	
@@ -59,4 +59,4 @@ if (obj_player.text1){
 	
 }
 
-
+alpha = 0;

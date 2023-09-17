@@ -1,6 +1,3 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
-move=true
-
+move = true;
+image_alpha = 0;
 
