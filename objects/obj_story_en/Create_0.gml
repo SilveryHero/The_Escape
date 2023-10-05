@@ -1,5 +1,3 @@
-/// @description Inserir descricao aqui
-// Voce pode escrever seu codigo neste editor
 page=21
 mytext=[];
 boxwidth = room_width/2;
@@ -24,7 +22,7 @@ mytext[15]="Julio: Of course, Agent Silva, come in, you'll see they're not here.
 mytext[16]="Julio: See, they're not here, Agent Silva."
 mytext[17]="APA: It looks like you really took steps to ensure the comfort of the animals during construction."
 mytext[18]="We didn't find any animals here, as you mentioned, we're leaving now."
-
+mytext[19]= " ";
 
 
 

@@ -1,7 +1,7 @@
 /// @description Inserir descricao aqui
 // Voce pode escrever seu codigo neste editor
-page=21
-mytext=[];
+page = 21
+mytext = "";
 boxwidth = room_width/2;
 
 mytext[21]="Agente de Protecao Animal (APA): Boa noite, senhores. Sou o Agente Silva, da Associacao de Protecao aos Animais"
@@ -24,7 +24,7 @@ mytext[15]="Julio:  Claro, Agente Silva, entre, vai ver que eles nao estao aqui.
 mytext[16]="Julio: Viu, eles nao estao aqui, Agente Silva. "
 mytext[17]="APA: Parece que voces realmente tomaram medidas para garantir o conforto dos animais durante as obras."
 mytext[18]="Nao encontramos nenhum animal aqui, como voces mencionaram. Estamos indo agora."
-
+mytext[19]= " ";
 
 
 

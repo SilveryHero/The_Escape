@@ -1,6 +1,6 @@
 
 
-transition(room_next(room));
+transition(rm_fase_1_en);
 
 
 

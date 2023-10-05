@@ -6,24 +6,23 @@ if obj_gerador.luz == false && luz==0{
 
 }
 
-		if pular == true{
-			pulo -=3;
-			cair=true
-		}
+if (pular == true) {
+	pulo -=3;
+	cair=true
+}
 	
-		if obj_puppy.y<400 && cair==true{
-			pulo+=20;
-			pular = false;
-
-		}
+if (obj_puppy.y<400 && cair==true) {
+	pulo+=20;
+	pular = false;
+}
 				
-		if obj_puppy.y>520 && pulo >0 {
+if (obj_puppy.y>520 && pulo >0) {
 		
-		luz=1
-		pulo=0
-		cair=false
-		alarm[0]=1
-		}
+	luz=1
+	pulo=0
+	cair=false
+	alarm[0]=1
+}
 	
 if(place_meeting(x+64,y, obj_puppy)) {
 	
